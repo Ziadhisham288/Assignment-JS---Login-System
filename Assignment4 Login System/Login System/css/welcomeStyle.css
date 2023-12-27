@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Lobster', sans-serif;
+}
+
+#home {
+    height: 100vh;
+    background-image: url(../images/desktop-1920x1080.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#welcomeCard {
+    height: 500px;
+    width: 800px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    position: relative;
+}
+
+#logout {
+    margin: 20px 60px 0 0;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+#logout:hover {
+    filter: brightness(80%);
+}

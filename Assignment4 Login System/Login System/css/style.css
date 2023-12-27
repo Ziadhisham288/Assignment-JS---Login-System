@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#home {
+    height: 100vh;
+    background-image: url(../images/desktop-1920x1080.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.loginCard {
+    height: 500px;
+    width: 300px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.nameInput {
+    padding-top: 22px ;
+}
+
+.emailInput {
+    padding-top: 22px ;
+}
+
+.passwordInput {
+    padding-top: 22px ;
+}
+
+.passwordInput input, .emailInput input , .nameInput input{
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid white;
+    padding: 0 5px;
+    margin-bottom: 15px;
+    background: transparent;
+}
+
+input:focus {
+  outline: none;
+  caret-color: white;
+  background-color: transparent;
+}
+
+label {
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+button {
+    background-color: white;
+    width: 100%;
+    padding: 7px 0;
+    border: none;
+    border-radius: 24px;
+    transition: all 0.2s;
+}
+
+button:hover {
+    filter: brightness(75%);
+}
+
+
+.footer {
+    font-size: 14px;
+    color: white;
+}
+
+.footer a {
+    font-weight: 700;
+}
+
+

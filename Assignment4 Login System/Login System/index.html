@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section id="home" class="d-flex justify-content-center align-items-center">
+        <div class="loginCard ">
+            <div class="content container">
+                <div class="logo text-center pt-2 text-light mb-3 mt-2">
+                    <h1>Register</h1>
+                </div>
+
+                <div class="ui">
+                    <div class="nameInput">
+                        <label for="name" class="nameLabel">Name</label>
+                        <input type="name" id="name" class="name">
+                    </div>
+                    <div class="emailInput">
+                        <label for="email" class="emailLabel">Email</label>
+                        <input type="email" id="email" class="email">
+                    </div>
+                    <div class="passwordInput mb-2">
+                        <label for="password" class="password">Password</label>
+                        <input type="password" id="password">
+                        <p id="message"></p>
+                    </div>
+
+                    <button id="registerBtn" class="mb-4">
+                        Register
+                    </button>
+                    
+                    <button id="loginBtn" class="mb-4 d-none">
+                        Login
+                    </button>
+
+                    <div class="footer text-center">
+                        <p>
+                            Already have an account? <span><a href="login.html" class="bold text-decoration-none text-white">login</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
